@@ -240,9 +240,19 @@
 
 // print all the even number from 0 to 100
 // let number = ;
-for (let num = 0; num <= 100; num++) {
-  //printing all the even number
-  if (num % 2 !== 0) {
-    console.log("num=", num);
-  }
+// for (let num = 0; num <= 100; num++) {
+//   //printing all the even number
+//   if (num % 2 !== 0) {
+//     console.log("num=", num);
+//   }
+// }
+
+//practice question 2
+
+let gameNum = 25;
+let userNum = Number(prompt("Guess the game number:"));
+
+while (userNum !== gameNum) {
+  userNum = prompt(" you enter wrong number Guess the game number again :");
 }
+console.log("you enter the right number you win the game");
